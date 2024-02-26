@@ -5,4 +5,5 @@ E問題は正負をひっくり返してダイクストラ法考えるの結構�
 C問題が地味にちゃんと辞書型で更新してからじゃないと間に合わないようになってた。
 
 個人的な解説のリンク↓
+
 https://drive.google.com/file/d/184rTdUMsngcUGZ-4cGOFX4RPxOK70VIY/view?usp=sharing
