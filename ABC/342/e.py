@@ -1,6 +1,14 @@
 from heapq import heappop, heappush
 
 
+"""
+ダイクストラ法の部分。
+edgesである頂点からどこの頂点へつながっているか、かかる時間、列車情報を受け取る。
+num_nodeは最速時刻と頂点を保持する。
+startがダイクストラ法の始点(今回はn-1確定だが流用できるようにdijkstraの関数をつくってある)
+heapqを使うとNlogNで計算できる。
+この形になるようにdiaを定義している。
+"""
 def dijkstra(edges, num_node, start):
     node = [10 ** 18 for _ in range(num_node)]
     node[start] = -10 ** 20
